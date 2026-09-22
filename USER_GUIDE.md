@@ -1,5 +1,7 @@
 # 使用说明
 
+[English](i18n/en/USER_GUIDE.md) | [日本語](i18n/ja/USER_GUIDE.md) | [한국어](i18n/ko/USER_GUIDE.md) | **简体中文** | [繁體中文](i18n/zh-Hant/USER_GUIDE.md)
+
 ## 首次安装与迁移
 
 下载 Release 中的 UpYouGo-Setup.exe，选择独立可写文件夹。支持更新接口的旧版会自动保存退出；更早的便携版需要先右键托盘小猫退出。安装不会删除原设置和统计。

@@ -1,6 +1,8 @@
 # 功能需求与验收口径
 
-基线：UpYouGo 1.1.1，2026-09-22。本文描述当前 Windows 桌面产品；建议需求见 ROADMAP.md。历史 PRD 的硬件范围不属于本版交付。
+[English](../i18n/en/REQUIREMENTS.md) | [日本語](../i18n/ja/REQUIREMENTS.md) | [한국어](../i18n/ko/REQUIREMENTS.md) | **简体中文** | [繁體中文](../i18n/zh-Hant/REQUIREMENTS.md)
+
+基线：UpYouGo 1.1.1，2026-09-22。本文描述当前 Windows 桌面产品；建议需求见 [后续规划](ROADMAP.md)。历史 PRD 的硬件范围不属于本版交付。
 
 ## 产品目标与用户流程
 

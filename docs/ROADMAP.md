@@ -1,6 +1,8 @@
 # 后续需求规划
 
-以下是建议，不代表已实现或已承诺排期。当前基线见 REQUIREMENTS.md。
+[English](../i18n/en/ROADMAP.md) | [日本語](../i18n/ja/ROADMAP.md) | [한국어](../i18n/ko/ROADMAP.md) | **简体中文** | [繁體中文](../i18n/zh-Hant/ROADMAP.md)
+
+以下是建议，不代表已实现或已承诺排期。当前基线见 [功能需求](REQUIREMENTS.md)。
 
 | 优先级 | 需求 | 价值与验收方向 |
 | --- | --- | --- |

@@ -1,5 +1,9 @@
 # 起身啦 · UpYouGo
 
+[English](i18n/en/README.md) | [日本語](i18n/ja/README.md) | [한국어](i18n/ko/README.md) | **简体中文** | [繁體中文](i18n/zh-Hant/README.md)
+
+> 文档支持五种语言查看。当前 1.1.1 桌面应用界面仍以简体中文为主，选择文档语言不会改变应用界面语言。
+
 Windows 坐站交替提醒与桌面猫咪。支持工作日程、午休、中国调休、免打扰和本地统计。
 
 **[下载最新版](https://github.com/elvinzou/upyougo-releases/releases/latest)** · [使用说明](USER_GUIDE.md) · [功能需求](docs/REQUIREMENTS.md) · [后续规划](docs/ROADMAP.md) · [更新记录](CHANGELOG.md)

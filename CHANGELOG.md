@@ -1,5 +1,7 @@
 # 变更记录
 
+[English](i18n/en/CHANGELOG.md) | [日本語](i18n/ja/CHANGELOG.md) | [한국어](i18n/ko/CHANGELOG.md) | **简体中文** | [繁體中文](i18n/zh-Hant/CHANGELOG.md)
+
 ## 1.1.1 — 2026-09-22
 
 首次通过独立公开发布仓库分发，源码继续私有。
