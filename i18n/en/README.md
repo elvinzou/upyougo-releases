@@ -8,6 +8,51 @@ A Windows sit–stand reminder with a desktop cat companion. Includes work sched
 
 **[Download the latest version](https://github.com/elvinzou/upyougo-releases/releases/latest)** · [User guide](USER_GUIDE.md) · [Requirements](REQUIREMENTS.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
 
+## A little companion beside your work
+
+<p align="center"><img src="../../assets/cat-actions.gif" width="900" alt="Pixel cat animation: looking and tilting its head, responding to petting, and yawning with a stretch"></p>
+
+*An 8-second loop using the app's actual animations: looking at you on the left, a petting response in the center, and a yawn with a stretch on the right.*
+
+| A cue to change posture | Fits your work schedule | Responsive, with quiet moments |
+| --- | --- | --- |
+| Reminders to stand, then sit; confirmation starts the next phase | Working hours, Chinese holiday adjustments, lunch breaks, snooze and Do Not Disturb | Head turns, tail movements and blinks; reacts to petting and moves less often while paused |
+
+## See the main screens
+
+<table>
+<tr><th>Sitting and standing timer</th><th>Reminder times and working days</th></tr>
+<tr><td align="center"><img src="../../assets/timer-panel.png" width="300" alt="Main panel example showing remaining time, sitting and standing durations, pause and posture confirmation"></td><td align="center"><img src="../../assets/schedule-panel.png" width="300" alt="Schedule example showing Chinese holiday adjustments, today's override, working hours and startup settings"></td></tr>
+<tr><td>Remaining time, current phase and next action in one place. Pause, confirm your posture or turn on Do Not Disturb.</td><td>Set reminder times by weekday, follow Chinese holiday adjustments, or mark today as a workday or rest day.</td></tr>
+</table>
+
+*Screenshots show the Simplified Chinese interface with sample dates and countdowns. See the feature list and user guide for additional supported settings.*
+
+## Reminders beside the cat
+
+<p align="center"><img src="../../assets/reminder-bubbles.png" width="900" alt="Stand and sit reminder component preview with bubbles on either side of the cat, confirmation and snooze buttons"></p>
+
+*Reminder component preview: stand reminders above, sit reminders below, with layouts on either side of the cat.*
+
+- **Keep typing:** reminder bubbles do not take input focus.
+- **A clear next step:** “我站起来了” confirms you have stood up; “我坐下了” confirms you have sat down.
+- **Busy right now?** Snooze for 2 / 5 / 10 minutes or use Do Not Disturb.
+
+## How does the cat respond?
+
+| Situation | Animation and response |
+| --- | --- |
+| Keeping you company | Cycles through looking up, tail movements and blinks without requiring mouse input |
+| Pointer comes near | Looks up and tilts its head toward the pointer's side |
+| Click to pet | Closes its eyes, rubs its head, alternates its front paws, lifts its chin, then relaxes |
+| Pet it again | Finishes the current response and can add one more round instead of repeatedly restarting |
+| Time to stand | Reaches its front paws forward and stretches alongside the stand reminder |
+| Time to sit | Settles into a relaxed pose alongside the sit reminder |
+| Occasional larger gestures | Yawns, stretches or raises a paw to greet you, with pauses between actions |
+| Dragging / paused timer | Move it to a suitable spot; autonomous movements become less frequent while paused |
+
+The app respects Windows reduced-motion settings: autonomous animations stop, while a brief static petting response remains. The cat does not detect your posture; you still confirm each timer phase yourself.
+
 ## Installation
 
 1. Download **UpYouGo-Setup.exe** from Releases.
