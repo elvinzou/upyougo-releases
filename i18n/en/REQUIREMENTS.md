@@ -2,7 +2,7 @@
 
 **English** | [日本語](../ja/REQUIREMENTS.md) | [한국어](../ko/REQUIREMENTS.md) | [简体中文](../../docs/REQUIREMENTS.md) | [繁體中文](../zh-Hant/REQUIREMENTS.md)
 
-Baseline: UpYouGo 1.1.1, 2026-09-22. This document covers the current Windows desktop product. Proposed work is listed in the [roadmap](ROADMAP.md). Hardware work in historical PRDs is outside this release.
+Baseline: UpYouGo 1.2.0, 2026-09-23. This document covers the current Windows desktop product. Proposed work is listed in the [roadmap](ROADMAP.md). Hardware work in historical PRDs is outside this release.
 
 ## Product goal and user flow
 
@@ -29,6 +29,7 @@ First launch → set durations and schedule → start timer → reminder beside 
 | R13 | Online updates | Show release notes; download on user action, verify ZIP checksum and internal manifest, then save, exit, and start the new app |
 | R14 | Local updates | Accept a complete ZIP; reject missing files, path traversal, duplicates, checksum failures, and different contents under an existing version number |
 | R15 | Rollback | Confirm only after main-panel loading and a short liveness check; restore old state on failure; recover interrupted updates on next launch; support manual rollback |
+| R16 | Language switching | Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule. |
 
 ## Outside the current release
 

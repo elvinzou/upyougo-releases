@@ -30,3 +30,11 @@ Version 1.1.1 moves the old default private update source to this public reposit
 - **Countdown resets after an update:** Restoring the previous countdown is not implemented yet. Startup settings determine what happens after restarting.
 
 Settings and records: `%APPDATA%\LumbarReminder`. WebView2 cache: `%LOCALAPPDATA%\UpYouGo\WebView2Data`. Quit the app and back up the original files before editing data.
+
+## Language switching
+
+Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
+
+Covers the main panel, reminder settings, tray and cat menus, reminder bubbles, statistics and in-app update notices. Open statistics windows update immediately; English bubble titles fit the available space.
+
+The standalone installer and maintenance tool remain in Chinese. Updating or restarting the app still starts a new timer according to startup settings; switching languages requires no restart.

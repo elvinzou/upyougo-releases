@@ -2,6 +2,13 @@
 
 **English** | [日本語](../ja/CHANGELOG.md) | [한국어](../ko/CHANGELOG.md) | [简体中文](../../CHANGELOG.md) | [繁體中文](../zh-Hant/CHANGELOG.md)
 
+## 1.2.0 — 2026-09-23
+
+- Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
+- Covers the main panel, reminder settings, tray and cat menus, reminder bubbles, statistics and in-app update notices. Open statistics windows update immediately; English bubble titles fit the available space.
+
+The standalone installer and maintenance tool remain in Chinese. Updating or restarting the app still starts a new timer according to startup settings; switching languages requires no restart.
+
 ## 1.1.1 — 2026-09-22
 
 First distribution through a dedicated public release repository; the development source remains private.

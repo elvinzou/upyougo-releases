@@ -2,7 +2,7 @@
 
 **English** | [日本語](../ja/README.md) | [한국어](../ko/README.md) | [简体中文](../../README.md) | [繁體中文](../zh-Hant/README.md)
 
-> These documents are available in five languages. The current 1.1.1 desktop app primarily uses Simplified Chinese; choosing a documentation language does not change the app interface.
+> Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
 
 A Windows sit–stand reminder with a desktop cat companion. Includes work schedules, lunch breaks, Chinese public holidays and adjusted working days, Do Not Disturb, and local statistics.
 
