@@ -2,6 +2,20 @@
 
 **English** | [日本語](../ja/CHANGELOG.md) | [한국어](../ko/CHANGELOG.md) | [简体中文](../../CHANGELOG.md) | [繁體中文](../zh-Hant/CHANGELOG.md)
 
+## 1.2.3 — 2026-09-28
+
+- The installer no longer transfers the downloaded file’s origin mark to the maintenance program, addressing update-window launch failures on some Windows systems.
+- If “Version & Updates” still fails in 1.2.2, run the 1.2.3 `UpYouGo-Setup.exe` once. Settings and statistics are preserved.
+
+## 1.2.2 — 2026-09-28
+
+- If Windows cancels or blocks the update-window launch, show the error and a manual download link instead of an unhandled .NET exception dialog.
+
+## 1.2.1 — 2026-09-28
+
+- Add tray-menu export and restore of personal data in `.upyougo` files. Validate backups and retain current data before restoring.
+- Remove an unintended dotted focus rectangle from reminder confirmation buttons while preserving mouse and keyboard activation.
+
 ## 1.2.0 — 2026-09-23
 
 - Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
