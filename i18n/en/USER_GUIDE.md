@@ -20,6 +20,12 @@ Open the tray menu → “版本与更新” (Version & Updates) to check for up
 
 Version 1.1.1 moves the old default private update source to this public repository. Run this release's Setup when first migrating to this channel so the maintenance program is updated too.
 
+If 1.2.2 still reports “The operation was canceled by the user” when opening “Version & Updates,” download and run `UpYouGo-Setup.exe` once from the [1.2.3 release](https://github.com/elvinzou/upyougo-releases/releases/tag/v1.2.3). Settings and statistics are preserved.
+
+## Personal data backup and restore
+
+Use the tray menu to export personal data to a `.upyougo` file. To restore, choose “Restore from backup.” The app validates the file and keeps a copy of the current data in `%APPDATA%\LumbarReminder\backups` before reloading settings and history. Restore does not resume the old countdown. Work-calendar caches and the Windows startup registry entry are not included.
+
 ## Troubleshooting
 
 - **No update found:** Check that the repository is `elvinzou/upyougo-releases` and GitHub is reachable. Prereleases do not trigger automatic notifications.

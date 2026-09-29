@@ -2,7 +2,7 @@
 
 **English** | [日本語](../ja/README.md) | [한국어](../ko/README.md) | [简体中文](../../README.md) | [繁體中文](../zh-Hant/README.md)
 
-> Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
+> The current stable release is **1.2.3**. Version 1.2.1 added personal data backup and restore; 1.2.2 improved errors when the update window cannot start; 1.2.3 fixes a download-origin mark inherited by the maintenance program. If “Version & Updates” still fails in 1.2.2, run the 1.2.3 installer once.
 
 A Windows sit–stand reminder with a desktop cat companion. Includes work schedules, lunch breaks, Chinese public holidays and adjusted working days, Do Not Disturb, and local statistics.
 
@@ -71,6 +71,10 @@ Requires Windows x64, .NET Framework (4.8 recommended), and Microsoft Edge WebVi
 - Custom installation folders, new-version notifications, online/local updates, and rollback on failure.
 
 ## Online updates
+
+Version 1.2.1 adds tray-menu export and restore of settings and statistics in `.upyougo` backup files. Backups are validated before restoration, and the previous data is retained locally.
+
+If “Version & Updates” still reports “The operation was canceled by the user” in 1.2.2, download and run `UpYouGo-Setup.exe` once from the [1.2.3 release](https://github.com/elvinzou/upyougo-releases/releases/tag/v1.2.3). Settings and statistics are preserved.
 
 The installed app checks this repository's stable releases at startup and every 6 hours. Click the tray notification or open “版本与更新” (Version & Updates), review the release notes, and download the update. Files are verified before the app saves and exits; the new version is then checked at startup. A failed startup restores the previous installation state.
 

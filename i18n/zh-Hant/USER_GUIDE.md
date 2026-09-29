@@ -20,6 +20,12 @@
 
 1.1.1 將舊預設私人儲存庫更新源遷移到本公開儲存庫。首次從舊版本遷移到此渠道建議執行本次 Setup，以同時更新維護程式。
 
+## 個人資料備份與還原
+
+在托盤選單將個人資料匯出為 `.upyougo` 檔。還原時程式會先驗證檔案，並在 `%APPDATA%\LumbarReminder\backups` 保存還原前的資料副本，然後重新載入設定與歷史紀錄。原本的倒數計時、工作日曆快取及 Windows 自動啟動登錄項目不會還原。
+
+若 1.2.2 開啟「版本與更新」時仍顯示「操作已被使用者取消」，請從 [1.2.3 發布頁](https://github.com/elvinzou/upyougo-releases/releases/tag/v1.2.3)下載並執行一次 `UpYouGo-Setup.exe`。設定與統計會保留。
+
 ## 常見問題
 
 - **找不到新版本**：確認儲存庫為 elvinzou/upyougo-releases，網路可訪問 GitHub。預釋出版不會自動提示。
