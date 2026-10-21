@@ -1,3 +1,5 @@
+> **1.4.0 · 2026-10-21** — この文書には旧バージョンの説明が含まれます。1.4.0 の仲間・パック読み込み・端への収納については、最新の手順をご覧ください： [English](../en/USER_GUIDE.md) / [简体中文](../../USER_GUIDE.md)。
+
 # 今後の計画
 
 [English](../en/ROADMAP.md) | **日本語** | [한국어](../ko/ROADMAP.md) | [简体中文](../../docs/ROADMAP.md) | [繁體中文](../zh-Hant/ROADMAP.md)

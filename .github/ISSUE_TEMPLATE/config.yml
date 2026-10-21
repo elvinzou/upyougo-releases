@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 使用指南 / User guide
+    url: https://github.com/elvinzou/upyougo-releases/blob/main/USER_GUIDE.md
+    about: 安装、桌宠操作、导入角色包、备份和更新说明

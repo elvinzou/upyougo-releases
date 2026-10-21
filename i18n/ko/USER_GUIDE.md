@@ -1,3 +1,5 @@
+> **1.4.0 · 2026-10-21** — 이 문서에는 이전 버전의 안내가 포함되어 있습니다. 1.4.0의 외형, 팩 가져오기, 가장자리 기능은 최신 안내를 참고하세요: [English](../en/USER_GUIDE.md) / [简体中文](../../USER_GUIDE.md)。
+
 # 사용 안내
 
 [English](../en/USER_GUIDE.md) | [日本語](../ja/USER_GUIDE.md) | **한국어** | [简体中文](../../USER_GUIDE.md) | [繁體中文](../zh-Hant/USER_GUIDE.md)

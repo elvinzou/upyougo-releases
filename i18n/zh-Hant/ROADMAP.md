@@ -1,3 +1,5 @@
+> **1.4.0 · 2026-10-21** — 此文件保留先前版本的操作說明。1.4.0 新增四角色、角色包匯入與貼邊，最新完整操作請參閱 [English](../en/USER_GUIDE.md) / [简体中文](../../USER_GUIDE.md)。
+
 # 後續需求規劃
 
 [English](../en/ROADMAP.md) | [日本語](../ja/ROADMAP.md) | [한국어](../ko/ROADMAP.md) | [简体中文](../../docs/ROADMAP.md) | **繁體中文**

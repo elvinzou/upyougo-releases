@@ -1,46 +1,60 @@
-# User guide
+# User guide · UpYouGo 1.4.0
 
-**English** | [日本語](../ja/USER_GUIDE.md) | [한국어](../ko/USER_GUIDE.md) | [简体中文](../../USER_GUIDE.md) | [繁體中文](../zh-Hant/USER_GUIDE.md)
+[Product overview](README.md) · [简体中文](../../USER_GUIDE.md)
 
-## First installation and migration
+## Installation and upgrades
 
-Download UpYouGo-Setup.exe from Releases and choose a dedicated, writable folder. Older versions with the update interface save and exit automatically. Earlier portable builds must be closed using the cat's system tray menu first. Installation preserves existing settings and statistics.
+Download the latest **UpYouGo-Setup.exe**, select a dedicated writable folder, then set your durations and work schedule. Windows x64, .NET Framework (4.8 recommended) and Microsoft Edge WebView2 Runtime are required. The installer does not bundle the full WebView2 Runtime.
 
-## Daily reminders
+Portable users must extract the entire ZIP. If an old update window cannot open, run the latest installer directly. Existing settings and records are retained; the previous countdown is not resumed.
 
-Set sitting and standing durations and working hours, then start the timer. When reminded, confirm that you have stood up or sat down to enter the next phase. Use snooze or Do Not Disturb if the timing is inconvenient. You confirm your posture manually; the app does not detect body movements.
+## Timers and reminders
 
-Schedule settings include weekdays, Chinese public holidays and adjusted working days, a working/rest-day override for today, and an optional lunch break. Locking or sleeping freezes the timer. After a long absence, choose whether to continue or restart. Automatic fullscreen quiet mode can be disabled.
+Start the timer after configuring your sitting/standing durations. Confirm **I am standing** or **I am sitting** only after changing posture. Confirmation begins the next phase. You can snooze for 2, 5 or 10 minutes or use Do Not Disturb.
 
-The statistics entry on the main panel shows local time records and behavioral feedback. Closing the panel leaves the tray icon and desktop cat running. To quit completely, use the tray menu.
+Configure workdays, working hours, lunch breaks, Chinese holiday adjustments and today's override in the schedule panel. Lock and sleep events follow the app's away rules.
 
-## Updates and rollback
+## Pet settings
 
-Open the tray menu → “版本与更新” (Version & Updates) to check for updates, read release notes, and download a new version. You can also select a complete local update ZIP. The installer verifies files before saving and exiting the app. If the new version fails its startup check, the previous installation state is restored. Rolling back the app does not roll back personal data.
+Open **Pet settings** at the bottom of the main panel. Select a card, preview actions, set a name and size, choose edge docking, then click the apply button.
 
-Version 1.1.1 moves the old default private update source to this public repository. Run this release's Setup when first migrating to this channel so the maintenance program is updated too.
+| Action | Result |
+| --- | --- |
+| Single click | Pet the companion |
+| Double click | Open the main panel |
+| Drag | Reposition the companion |
+| Right-click snack/play | Play one short interaction |
+| Drop near either screen edge | Retract when edge docking is enabled |
+| Pointer arrives / reminder is due | Expand the companion |
+| Recover pet | Undo hiding/current docking and return it to a visible work area |
 
-If 1.2.2 still reports “The operation was canceled by the user” when opening “Version & Updates,” download and run `UpYouGo-Setup.exe` once from the [1.2.3 release](https://github.com/elvinzou/upyougo-releases/releases/tag/v1.2.3). Settings and statistics are preserved.
+Interactions and previews do not change real timer records. Reminders take priority over normal interactions. Reduced-motion preferences stop autonomous loops and retain necessary static responses.
 
-## Personal data backup and restore
+## Import ZIP or folder
 
-Use the tray menu to export personal data to a `.upyougo` file. To restore, choose “Restore from backup.” The app validates the file and keeps a copy of the current data in `%APPDATA%\LumbarReminder\backups` before reloading settings and history. Restore does not resume the old countdown. Work-calendar caches and the Windows startup registry entry are not included.
+Both buttons import the same character format:
+- ZIP: select a compatible pack file.
+- Folder: select the directory directly containing `character.json`.
+- After import, select the character and **apply it to the desktop**.
 
-## Troubleshooting
+A pack contains JSON configuration and transparent PNG artwork. Ordinary photo archives, GIFs, videos and packs from other programs need conversion; import does not generate animation from photographs.
 
-- **No update found:** Check that the repository is `elvinzou/upyougo-releases` and GitHub is reachable. Prereleases do not trigger automatic notifications.
-- **Download failed:** The current app remains usable. Retry later, or download the complete ZIP manually and choose a local update.
-- **Main panel failed to initialize:** Check that Microsoft Edge WebView2 Runtime is installed. Extract the entire portable package; do not copy only the EXE.
-- **No permission to install:** Choose a dedicated folder writable by your current user. The installer does not request elevation automatically.
-- **Reminders continue after closing the window:** Closing the panel does not quit the app. Exit through the tray menu.
-- **Countdown resets after an update:** Restoring the previous countdown is not implemented yet. Startup settings determine what happens after restarting.
+A ZIP may contain the configuration at its root or one enclosing character folder. Imported packs are copied to `%APPDATA%\LumbarReminder\characters\<id>`. Duplicate IDs are rejected without overwriting existing packs. [Format and limits](../../docs/CHARACTER-PACKS.md).
 
-Settings and records: `%APPDATA%\LumbarReminder`. WebView2 cache: `%LOCALAPPDATA%\UpYouGo\WebView2Data`. Quit the app and back up the original files before editing data.
+## Recover a hidden pet
 
-## Language switching
+Use the recovery button in Pet settings or the tray menu. It restores visibility and a position within a screen's work area, keeping the selected character, size and timer. It does not create another companion.
 
-Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
+During genuine fullscreen use it waits to show the pet. After fullscreen ends the pet can return immediately while reminder grace continues. Version 1.4.0 removes the extra ten-second hide after temporary fullscreen windows close. Capture behavior in specific WeChat versions still needs confirmation.
 
-Covers the main panel, reminder settings, tray and cat menus, reminder bubbles, statistics and in-app update notices. Open statistics windows update immediately; English bubble titles fit the available space.
+## Backup and updates
 
-The standalone installer and maintenance tool remain in Chinese. Updating or restarting the app still starts a new timer according to startup settings; switching languages requires no restart.
+The tray menu exports settings and records to a `.upyougo` file and restores validated backups. The app retains a pre-restore copy under `%APPDATA%\LumbarReminder\backups`.
+
+Backups do not include custom artwork, calendar cache, browser cache or the Windows startup registry entry. Keep imported packs separately.
+
+The installed app checks stable releases at startup and every six hours. Review and choose an update from the tray menu, or select a complete local ZIP. Files are verified before the app exits and activates the new version. A failed startup can roll back the application; personal data is not rolled back.
+
+Closing the main panel leaves the app running. Use the tray menu to quit.
+
+[Changelog](CHANGELOG.md) · [Data statement](../../docs/PRIVACY.md) · [Issues](https://github.com/elvinzou/upyougo-releases/issues)

@@ -1,0 +1,36 @@
+name: 问题反馈 / Bug report
+description: 报告可以重现的程序问题
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: UpYouGo 版本
+      placeholder: "例如 1.4.0，GitHub 安装版"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 与显示环境
+      placeholder: "例如 Windows 11 x64，单屏 150% 缩放"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: 按操作顺序描述；截图相关问题请补充截图工具和版本。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 实际表现与期望表现
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 错误提示或截图
+      description: 可选。只需提供与问题有关的界面或文字。

@@ -1,3 +1,5 @@
+> **1.4.0 · 2026-10-21** — 此文件保留先前版本的操作說明。1.4.0 新增四角色、角色包匯入與貼邊，最新完整操作請參閱 [English](../en/USER_GUIDE.md) / [简体中文](../../USER_GUIDE.md)。
+
 # 變更記錄
 
 [English](../en/CHANGELOG.md) | [日本語](../ja/CHANGELOG.md) | [한국어](../ko/CHANGELOG.md) | [简体中文](../../CHANGELOG.md) | **繁體中文**

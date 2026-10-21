@@ -1,46 +1,36 @@
 # Changelog
 
-**English** | [日本語](../ja/CHANGELOG.md) | [한국어](../ko/CHANGELOG.md) | [简体中文](../../CHANGELOG.md) | [繁體中文](../zh-Hant/CHANGELOG.md)
+## 1.4.0 · Desktop companions — 2026-10-21
+
+- Four built-in characters: pixel cat, Jiu Qian Sui, hand-drawn capybara and chibi companion.
+- Pet settings with independent previews, names, 70%–150% sizing and edge docking.
+- Petting, feeding, ball play and short responses; real reminders take priority.
+- JSON + PNG character packs imported from folders or ZIP, with validation and separate user storage.
+- Jiu Qian Sui retains its reference appearance and uniform proportions, with continuous interaction and stand/sit body transitions.
+- Matching rounded speech bubbles with placement above/below the companion and screen-edge handling.
+- Pet visibility is separated from the fullscreen exit reminder grace, removing an extra ten-second hide. Recognition is added for capture-tool overlays.
+- Existing backup/restore and updater fixes from 1.2.1–1.2.3 are retained.
+
+Verification covers installer/update/backup, timing and schedules, real window rendering, characters/imports, animations, languages and focus. Specific WeChat versions and physical mixed-DPI/multi-monitor setups need environment-specific confirmation. Updates still do not resume the old countdown; installer and maintenance UI remain in Chinese. This release updates the GitHub standalone channel.
 
 ## 1.2.3 — 2026-09-28
 
-- The installer no longer transfers the downloaded file’s origin mark to the maintenance program, addressing update-window launch failures on some Windows systems.
-- If “Version & Updates” still fails in 1.2.2, run the 1.2.3 `UpYouGo-Setup.exe` once. Settings and statistics are preserved.
+Fixes the maintenance executable inheriting the installer's download-origin mark.
 
 ## 1.2.2 — 2026-09-28
 
-- If Windows cancels or blocks the update-window launch, show the error and a manual download link instead of an unhandled .NET exception dialog.
+Handles Windows cancellation or blocking when opening the updater, with a manual download path instead of an unhandled exception.
 
 ## 1.2.1 — 2026-09-28
 
-- Add tray-menu export and restore of personal data in `.upyougo` files. Validate backups and retain current data before restoring.
-- Remove an unintended dotted focus rectangle from reminder confirmation buttons while preserving mouse and keyboard activation.
+Adds tray-menu personal settings/records backup and restore with validation and a pre-restore local copy.
 
 ## 1.2.0 — 2026-09-23
 
-- Version 1.2.0 adds Chinese / English interface switching. Choose a language at the top right of the main panel. It applies immediately and is remembered at the next launch. Existing users keep Chinese by default. Switching preserves the timer, posture and statistics, and does not change the Chinese work calendar or schedule.
-- Covers the main panel, reminder settings, tray and cat menus, reminder bubbles, statistics and in-app update notices. Open statistics windows update immediately; English bubble titles fit the available space.
-
-The standalone installer and maintenance tool remain in Chinese. Updating or restarting the app still starts a new timer according to startup settings; switching languages requires no restart.
+Adds immediate Simplified Chinese/English switching without resetting timer progress.
 
 ## 1.1.1 — 2026-09-22
 
-First distribution through a dedicated public release repository; the development source remains private.
+Moves public distribution to this repository and provides online/local updating with rollback.
 
-- Switch the default update source to `elvinzou/upyougo-releases`, with compatibility for the old default configuration.
-- Add requirements, architecture, development/testing, release-process and roadmap documentation.
-- Add continuous integration for Windows builds and updater checks.
-
-Includes previously delivered local features: sit–stand reminders, pixel cat, schedule/Chinese holiday adjustments/lunch breaks, time-away and fullscreen quiet handling, local statistics, custom installation paths, new-version notifications, online/local updates, and rollback.
-
-Known limitations: updates do not restore the countdown; the installer does not bundle the full WebView2 Runtime; a complete uninstaller and old-version cleanup are not available; executables are not Authenticode-signed.
-
-## 1.1.0 — 2026-09-22 (local delivery)
-
-- GitHub stable-release checks, tray notifications, release notes, and download verification.
-- Custom installation folders and actual-path detection for the launcher.
-
-## 1.0.0 — 2026-09-22 (local delivery)
-
-- Stable launcher, separate version folders, local ZIP updates, save-and-exit, startup validation, and rollback.
-- Preserve compatibility with existing personal settings and statistics directories.
+[Detailed Chinese changelog](../../CHANGELOG.md)
