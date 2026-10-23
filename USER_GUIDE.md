@@ -1,4 +1,4 @@
-# 使用指南 · UpYouGo 1.4.0
+# 使用指南 · UpYouGo 1.4.2
 
 [返回产品首页](README.md) · [English](i18n/en/USER_GUIDE.md) · [角色包格式](docs/CHARACTER-PACKS.md)
 
@@ -94,6 +94,6 @@ ZIP 根目录直接放这些文件，或仅含一层外部角色文件夹。需�
 | 安装目录无权限 | 换成当前用户可写的独立目录，安装器不自动提权 |
 | 动作减少或不播放 | 检查 Windows 减少动态效果、免打扰和当前提醒状态 |
 | 导入失败 | 检查包格式、图片和重复 ID，按提示修正 |
-| 重启后倒计时重置 | 当前版本尚不支持续接，按照启动设置处理 |
+| 重启后等待选择 | 同一工作时段内短中断自动接续；达到离开阈值或跨时段则选择继续或重新开始。首次从旧版升级没有历史进度可恢复，详见 [计时接续](docs/SESSION-RECOVERY.md) |
 
 [数据说明](docs/PRIVACY.md) · [更新记录](CHANGELOG.md) · [问题反馈](https://github.com/elvinzou/upyougo-releases/issues)

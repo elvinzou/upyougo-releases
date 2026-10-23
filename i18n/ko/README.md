@@ -4,7 +4,7 @@
 
 Windows용 앉기·서기 전환 알림과 데스크톱 친구입니다. 업무 일정에 맞춘 알림, 가벼운 상호작용, 로컬 기록을 제공합니다. 계정 등록이 필요하지 않습니다.
 
-**[1.4.0 다운로드](https://github.com/elvinzou/upyougo-releases/releases/latest)** · [사용 안내](USER_GUIDE.md) · [English](../en/README.md) · [简体中文](../../README.md)
+**[1.4.2 다운로드](https://github.com/elvinzou/upyougo-releases/releases/latest)** · [사용 안내](USER_GUIDE.md) · [English](../en/README.md) · [简体中文](../../README.md)
 
 ## 나와 맞는 데스크톱 친구를 선택하세요
 
@@ -30,6 +30,6 @@ Releases에서 UpYouGo-Setup.exe를 내려받아 쓰기 가능한 전용 폴더�
 
 Windows x64, .NET Framework(4.8 권장), Microsoft Edge WebView2 Runtime이 필요합니다. Windows 10/11을 권장합니다. 앱 UI는 중국어 간체와 영어를 지원하며 설치 프로그램과 유지 관리 도구는 중국어입니다. 한국어 문서가 한국어 UI 지원을 의미하지는 않습니다.
 
-업데이트나 재시작 후 이전 카운트다운이 이어지지는 않습니다. 설정과 기록은 유지됩니다. 1.4.0에는 네 가지 외형, 가장자리 숨기기, 캐릭터 팩, 새 말풍선이 추가되었습니다. 임시 전체 화면 창을 닫은 후에도 펫이 추가로 10초간 숨겨지는 문제를 수정했습니다. WeChat 버전별 캡처 동작과 실제 다중 모니터·혼합 DPI 환경은 별도 확인이 필요합니다.
+1.4.2에서는 펫 그리기 안정성을 개선했습니다. 같은 근무 시간 내의 짧은 중단은 저장된 진행 상태를 이어가며, 긴 중단이나 근무 시간 변경 후에는 확인을 요청합니다. 1.4.0 이하에서 처음 업데이트하면 이전 진행 상태를 복원할 수 없습니다. 1.4.0에는 네 가지 외형, 가장자리 숨기기, 캐릭터 팩, 새 말풍선이 추가되었습니다. 임시 전체 화면 창을 닫은 후에도 펫이 추가로 10초간 숨겨지는 문제를 수정했습니다. WeChat 버전별 캡처 동작과 실제 다중 모니터·혼합 DPI 환경은 별도 확인이 필요합니다.
 
-[1.4.0 · English](../en/CHANGELOG.md) · [角色包格式](../../docs/CHARACTER-PACKS.md) · [Issues](https://github.com/elvinzou/upyougo-releases/issues)
+[1.4.2 · English](../en/CHANGELOG.md) · [角色包格式](../../docs/CHARACTER-PACKS.md) · [Issues](https://github.com/elvinzou/upyougo-releases/issues)

@@ -2,7 +2,7 @@
 
 <p align="center"><strong>A better rhythm for your workday.</strong><br>A Windows sit–stand reminder with responsive desktop companions.</p>
 
-<p align="center"><a href="https://github.com/elvinzou/upyougo-releases/releases/latest"><strong>Download 1.4.0</strong></a> · <a href="USER_GUIDE.md">User guide</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="../../README.md">简体中文</a></p>
+<p align="center"><a href="https://github.com/elvinzou/upyougo-releases/releases/latest"><strong>Download 1.4.2</strong></a> · <a href="USER_GUIDE.md">User guide</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="../../README.md">简体中文</a></p>
 
 ## Focus, with room to move
 
@@ -53,9 +53,9 @@ Requires Windows x64, .NET Framework (4.8 recommended) and Microsoft Edge WebVie
 
 For portable use, fully extract **UpYouGo-Windows-x64.zip** and run the included executable. The updater uses the matching **.sha256** file automatically. GitHub's automatically generated Source code archives contain documentation, not the application.
 
-## What changed in 1.4.0?
+## What changed in 1.4.2?
 
-Four companions, light interactions, edge docking, local character import and redesigned speech bubbles. Jiu Qian Sui now has body transitions for both stand and sit reminders. The pet no longer remains hidden for an extra ten seconds after a temporary fullscreen window closes; capture-tool overlay recognition has also been added.
+Pet rendering failures now retain the last frame and retry after a delay, allowing timer updates to continue when graphics resources are temporarily unavailable. Timer progress, manual pause and snooze state can also resume across restarts and updates.
 
 Backup/restore and updater fixes from 1.2.1–1.2.3 are retained. [Full release notes →](CHANGELOG.md)
 
@@ -64,7 +64,7 @@ Backup/restore and updater fixes from 1.2.1–1.2.3 are retained. [Full release 
 Settings and records live in `%APPDATA%\LumbarReminder`, with custom artwork under `characters`. The app does not upload those settings, statistics or behavioral records. Network access is used for update checks, downloads and calendar synchronization.
 
 - Posture is confirmed by you, not detected through a camera or sensor.
-- Restarting or updating does not resume the previous countdown.
+- Short interruptions within the same work period resume automatically; longer gaps or schedule changes ask you to continue or restart. Versions 1.4.0 and earlier have no saved session to recover on first upgrade.
 - Personal backup files do not include imported character artwork; retain the original packs separately.
 - The app UI supports Simplified Chinese and English. The installer and maintenance tool remain in Chinese.
 - Actual WeChat capture behavior and physical multi-monitor/mixed-DPI setups still require testing in the relevant environments.

@@ -4,7 +4,7 @@ The following are candidates, not promised delivery dates.
 
 | Priority | Direction |
 | --- | --- |
-| P1 | Resume timer state across updates and restarts |
+| Delivered in 1.4.2 | Resume saved timer state across updates and restarts |
 | P1 | More complete uninstall and old-version cleanup |
 | P2 | Download cancellation, retry and update preferences |
 | P2 | Executable signing and wider physical DPI/multi-monitor coverage |
