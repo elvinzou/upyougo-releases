@@ -1,4 +1,4 @@
-# Delivered capabilities · UpYouGo 1.4.0
+# Delivered capabilities · UpYouGo 1.4.2
 
 Scope: GitHub standalone Windows application, 2026-10-21.
 
@@ -12,6 +12,6 @@ Scope: GitHub standalone Windows application, 2026-10-21.
 - Instant Simplified Chinese/English switching without resetting timer state.
 - Custom install folder, stable-release checks, user-selected online/local updates and startup-failure rollback.
 
-Updates and restarts do not resume the old countdown. Personal backups do not include imported artwork. No camera/sensor posture detection, cloud account or cross-device synchronization is provided. Other language documentation does not imply additional app UI languages.
+Updates and restarts can resume saved timer state; longer interruptions require confirmation. First upgrades from 1.4.0 or earlier have no saved timer state to recover. Personal backups do not include imported artwork. No camera/sensor posture detection, cloud account or cross-device synchronization is provided. Other language documentation does not imply additional app UI languages.
 
 [User guide](USER_GUIDE.md) · [Detailed Chinese requirements](../../docs/REQUIREMENTS.md)

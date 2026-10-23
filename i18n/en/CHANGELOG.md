@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.4.2 · Rendering stability and timer recovery — 2026-10-23
+
+- Keep timer updates running when desktop-pet rendering fails with a GDI+ memory or native graphics error. Retain the last presented frame and retry after a delay.
+- Reuse the render buffer and avoid unnecessary transparent-frame and opaque-frame allocations.
+- Restore the saved phase, elapsed time, manual pause and snooze state across restarts and updates. Short interruptions in the same work period resume automatically; longer gaps and schedule changes ask for confirmation.
+- Save every 15 seconds and on key actions and normal exit. Time while closed is not added to activity or reminder response statistics.
+- Keep settings, records and custom pets. First upgrades from 1.4.0 or earlier have no previous session to recover. Restoring a personal backup clears the temporary session.
+- This release updates the GitHub standalone Windows edition.
+
 ## 1.4.0 · Desktop companions — 2026-10-21
 
 - Four built-in characters: pixel cat, Jiu Qian Sui, hand-drawn capybara and chibi companion.

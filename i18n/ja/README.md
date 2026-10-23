@@ -4,7 +4,7 @@
 
 Windows 向けの座る・立つ切り替えリマインダーとデスクトップの仲間。勤務時間に合わせた通知、気軽なふれあい、ローカルの記録を備えています。アカウント登録は不要です。
 
-**[1.4.0 をダウンロード](https://github.com/elvinzou/upyougo-releases/releases/latest)** · [使い方](USER_GUIDE.md) · [English](../en/README.md) · [简体中文](../../README.md)
+**[1.4.2 をダウンロード](https://github.com/elvinzou/upyougo-releases/releases/latest)** · [使い方](USER_GUIDE.md) · [English](../en/README.md) · [简体中文](../../README.md)
 
 ## 自分に合うデスクトップの仲間を
 
@@ -30,6 +30,6 @@ Releases から UpYouGo-Setup.exe をダウンロードし、書き込み可能�
 
 Windows x64、.NET Framework（4.8 推奨）、Microsoft Edge WebView2 Runtime が必要です。Windows 10/11 を推奨します。アプリの表示言語は簡体字中国語と英語、インストーラーとメンテナンスツールは中国語です。日本語の文書は日本語 UI の提供を意味しません。
 
-更新・再起動後に以前のカウントダウンは再開されません。設定と履歴は保持されます。1.4.0 では 4 種類の仲間、端への収納、パックの読み込み、新しい吹き出しを追加。一時的な全画面ウィンドウを閉じた後もペットが 10 秒間隠れる問題を修正しました。WeChat の各バージョンや実機の複数画面・混在 DPI 環境は個別の確認が必要です。
+1.4.2 ではペット描画の安定性を改善しました。同じ勤務時間内の短い中断は保存済みの進行状況から再開し、長い中断や勤務時間の変更後は確認を求めます。1.4.0 以前からの初回更新では旧進行状況は復元できません。1.4.0 では 4 種類の仲間、端への収納、パックの読み込み、新しい吹き出しを追加。一時的な全画面ウィンドウを閉じた後もペットが 10 秒間隠れる問題を修正しました。WeChat の各バージョンや実機の複数画面・混在 DPI 環境は個別の確認が必要です。
 
-[1.4.0 · English](../en/CHANGELOG.md) · [角色包格式](../../docs/CHARACTER-PACKS.md) · [Issues](https://github.com/elvinzou/upyougo-releases/issues)
+[1.4.2 · English](../en/CHANGELOG.md) · [角色包格式](../../docs/CHARACTER-PACKS.md) · [Issues](https://github.com/elvinzou/upyougo-releases/issues)

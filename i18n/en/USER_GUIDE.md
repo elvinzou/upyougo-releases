@@ -1,4 +1,4 @@
-# User guide · UpYouGo 1.4.0
+# User guide · UpYouGo 1.4.2
 
 [Product overview](README.md) · [简体中文](../../USER_GUIDE.md)
 
@@ -55,6 +55,6 @@ Backups do not include custom artwork, calendar cache, browser cache or the Wind
 
 The installed app checks stable releases at startup and every six hours. Review and choose an update from the tray menu, or select a complete local ZIP. Files are verified before the app exits and activates the new version. A failed startup can roll back the application; personal data is not rolled back.
 
-Closing the main panel leaves the app running. Use the tray menu to quit.
+Short interruptions within the same work period resume the saved phase and progress automatically. At the away threshold (five minutes by default), across work periods, or after schedule changes, choose Continue previous or Start over. Manual pauses remain paused; time while closed is not counted. First upgrades from 1.4.0 or earlier cannot recover progress those versions never saved. Restoring a personal backup clears the old temporary session. Closing the main panel leaves the app running. Use the tray menu to quit.
 
 [Changelog](CHANGELOG.md) · [Data statement](../../docs/PRIVACY.md) · [Issues](https://github.com/elvinzou/upyougo-releases/issues)
